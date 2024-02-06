@@ -1,4 +1,7 @@
-def f(x):
-    y=pow(x,4)
-    return y
-print("{}".format(f(5)))
+#includ <stdio.h>
+
+int main()
+{
+    printf("hello world")
+    return 0;
+}

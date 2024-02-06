@@ -4,7 +4,7 @@ while m<0 or kg<0:
     try:
         m=eval(input("请输入身高(m)："))
         kg=eval(input("请输入体重(kg)："))
-    except:
+    except:  # noqa: E722
         print("请按提示输入")
 b=kg/pow(m,2)
 print("BMI数值为：{:.1f}".format(b))
