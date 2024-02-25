@@ -2,7 +2,17 @@
     "terminal.integrated.env.windows": {
         "PATH": "D:\\Programs\\anaconda3\\envs\\Spider"
     },//工作区虚拟环境路径
-    "python.defaultInterpreterPath": "D:\\Programs\\anaconda3\\envs\\Spider", //VC终端的python路径
+    "python.defaultInterpreterPath": "D:\\Programs\\anaconda3\\envs\\Spider",
+    "editor.detectIndentation": false,
+    "spellright.language": [
+        "en"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "python"
+    ], //VC终端的python路径
     //"python": "D:\\Programs\\anaconda3\\envs\\Spider\\python.exe",//解决VC的python版本与终端里的python版本不一致
     //"code-runner.executorMap":{"python":"set PYTHONIOENCODING=utf8 && D:\\Programs\\anaconda3\\envs\\Spider"}, //解决VC的python版本与终端里的python版本不一致
     //"python.defaultInterpreterPath": "D:\\Programs\\anaconda3\\envs\\Spider",// 注意这里python后面的路径就是虚拟环境中的python解释器的位置
